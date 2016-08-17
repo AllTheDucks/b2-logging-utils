@@ -39,12 +39,12 @@ compile files('path/to/jar/b2-logging-utils-[version].jar)
 
  - Add the following XML to your logback configuration file:
  
- ```XML
+```XML
 <define name="pluginLogDir" class="com.alltheducks.logging.logback.BbPluginLogDirPropertyDefiner">
     <vendorId>me</vendorId>
     <handle>myplugin</handle>
 </define>
- ```
+```
  
  - Add the following XML to your B2 permissions in the bb-manifest.xml 
  (unfortunately, at this time, write permissions are required to the 
