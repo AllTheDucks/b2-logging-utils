@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://bbprepo.blackboard.com/content/repositories/releases/"
+    }
+}
+
+version="1.0.0"
+
+dependencies {
+    compile 'blackboard.platform:bb-platform:9.1.100401.0'
+    compile 'ch.qos.logback:logback-core:1.1.7'
+}
