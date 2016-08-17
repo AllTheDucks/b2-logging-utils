@@ -41,8 +41,8 @@ compile files('path/to/jar/b2-logging-utils-[version].jar)
  
  ```XML
 <define name="pluginLogDir" class="com.alltheducks.logging.logback.BbPluginLogDirPropertyDefiner">
-   <vendorId>me</vendorId>
-   <handle>myplugin</handle>
+    <vendorId>me</vendorId>
+    <handle>myplugin</handle>
 </define>
  ```
  
