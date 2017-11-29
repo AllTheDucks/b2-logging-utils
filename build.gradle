@@ -10,9 +10,10 @@ repositories {
     }
 }
 
-version="1.0.0"
+version="1.0.1"
 
 dependencies {
     compile 'blackboard.platform:bb-platform:9.1.100401.0'
     compile 'ch.qos.logback:logback-core:1.1.7'
+    compile 'ch.qos.logback:logback-classic:1.1.7'
 }
