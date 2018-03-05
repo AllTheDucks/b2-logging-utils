@@ -19,7 +19,7 @@ public class BbPluginConfigDirPropertyDefiner extends PropertyDefinerBase {
             addError("The \"vendorId\" property must be set.");
             return null;
         }
-        if (OptionHelper.isEmpty(vendorId)) {
+        if (OptionHelper.isEmpty(handle)) {
             addError("The \"handle\" property must be set.");
             return null;
         }
